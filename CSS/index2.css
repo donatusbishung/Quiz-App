@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;700&family=Poppins:wght@500;600;700;800&family=Raleway:wght@400;500;600;700;800&family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz {
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#answer-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    text-align: left !important;
+    padding: 0.6rem !important;
+    border: none !important;
+}
+
+.btn:hover {
+    background-color: aquamarine !important;
+    color: white !important;
+    cursor: pointer !important;
+}
+
+.next-btn {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 3rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    align-self: center;
+}
+
+.next-btn:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.next-btn:focus {
+    background-color: aqua;
+}
+
+/* .correct {
+    background-color: green !important;
+}
+
+.incorrect {
+    background-color: red !important;
+} */
