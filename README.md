@@ -1,5 +1,5 @@
-## My first JavaScript Project
-### Title: Quiz App
+### My first JavaScript Project
+## Title: Quiz App
 
 # Resources used
 1. KodeCamp YouTube channel
