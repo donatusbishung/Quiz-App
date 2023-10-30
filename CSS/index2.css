@@ -35,6 +35,8 @@ body {
     text-align: left !important;
     padding: 0.6rem !important;
     border: none !important;
+    background-color: rgb(199, 197, 197) !important;
+    border-radius: 5px !important;
 }
 
 .btn:hover {
